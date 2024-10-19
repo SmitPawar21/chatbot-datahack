@@ -21,7 +21,7 @@ export const Chatbot = () => {
         setInput('');
         userInput.value = '';
 
-        const response = await fetch('https://d01e-103-208-226-234.ngrok-free.app/chat',{
+        const response = await fetch('https://52cb-202-134-191-26.ngrok-free.app/chat',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
